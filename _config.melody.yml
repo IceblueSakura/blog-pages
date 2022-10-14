@@ -95,7 +95,7 @@ fireworks: false
 
 # Analysis
 # ---------------
-baidu_analytics:
+baidu_analytics: c6989d913b8d18f49daf00ce86c8cc09
 # Format: UA-xxxxxxxxx-x
 # Example: UA-123456789-0
 google_analytics:
