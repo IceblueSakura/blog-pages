@@ -18,10 +18,10 @@
 # Main menu navigation
 menu:
   主页: /
-  归档: /archives
   标签: /tags
   分类: /categories
-  关于我: /about
+  时间线: /archives
+  关于: /about
   # Home: /
   # Archives: /archives
   # Tags: /tags
@@ -72,6 +72,9 @@ algolia_search:
 # ---------------
 local_search:
   enable: false
+  labels:
+    input_placeholder: 输入要站内搜索的内容
+    hits_empty: "没有找到关于 ${query} 的内容" # if there are no result
 
 # MathJax
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/third-party-support.html#mathjax
@@ -150,7 +153,7 @@ post_meta:
 
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/additional-package-support.html#word-counting
 wordcount:
-  enable: false
+  enable: true
 
 toc:
   enable: true
